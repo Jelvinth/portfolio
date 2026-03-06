@@ -40,6 +40,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -298,7 +299,7 @@ header.scrolled {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 6vw, 5rem);
+    font-size: clamp(2.5rem, 6vw, 5rem);
     font-weight: 800;
     margin-bottom: 24px;
     letter-spacing: -1px;
@@ -314,7 +315,9 @@ header.scrolled {
 .hero-cta {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .social-icon {
@@ -434,6 +437,8 @@ pre {
     display: flex;
     gap: 40px;
     margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .stat-item {
@@ -592,7 +597,7 @@ pre {
    ======================== */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
 }
 
@@ -861,7 +866,7 @@ footer {
     }
 
     .hero-title {
-        font-size: clamp(2.5rem, 8vw, 4rem);
+        font-size: clamp(2rem, 8vw, 4rem);
     }
 
     .about-grid {
