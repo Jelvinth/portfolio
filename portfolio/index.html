@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Jelvinth Lakshmanan</title>
-    <meta name="description" content="A stunning portfolio showcasing modern web development and design skills.">
+    <title>Jelvinth Lakshmanan | Python & Django Developer | Data Mining Engineer</title>
+    <meta name="description"
+        content="Portfolio of Jelvinth Lakshmanan, a Python Developer and Data Mining Engineer specializing in web scraping, Django, FastAPI, and data extraction systems.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,8 @@
         rel="stylesheet">
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -29,6 +31,7 @@
             </button>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Work</a></li>
                 <li><a href="#contact" class="btn btn-outline nav-btn">Let's Talk</a></li>
@@ -41,15 +44,20 @@
         <section id="hero" class="hero text-center">
             <div class="hero-content reveal" style="max-width: 800px; margin: 0 auto;">
                 <p class="greeting">Hi, I am</p>
-                <h1 class="hero-title">A <span class="gradient-text">Data Mining</span><br>Engineer.</h1>
-                <p class="hero-subtitle mx-auto">I'm Jelvinth Lakshmanan, a Data Mining Engineer & Python Developer with
-                    expertise in web scraping, data extraction, and backend development.</p>
+                <!-- Profile Image -->
+                <div id="profile-avatar"
+                    style="margin: 1rem auto; width: 140px; height: 140px; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-color); box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+                    <img src="assets/images/profile-pic.png" alt="Jelvinth Lakshmanan"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h1 class="hero-title">A <span class="gradient-text">Python Developer & Data Mining</span><br>Engineer.
+                </h1>
+                <p class="hero-subtitle mx-auto">I'm Jelvinth Lakshmanan, a Python Developer and Data Mining Engineer
+                    with 3+ years of experience building scalable web scraping and data extraction systems.</p>
                 <div class="hero-cta justify-center">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="https://drive.google.com/file/d/1jFVsse-0EgDvuml-1xjbIEcPYhrunvxy/view?usp=drive_link"
-                        target="_blank" class="btn btn-outline">View Resume</a>
-                    <a href="https://drive.google.com/file/d/1jFVsse-0EgDvuml-1xjbIEcPYhrunvxy/view?usp=drive_link"
-                        class="btn btn-outline" target="_blank">Download CV <i data-feather="download"></i></a>
+                    <a href="assets/docs/Jelvinth Lakshmanan.pdf" class="btn btn-outline" target="_blank">Download CV <i
+                            data-feather="download"></i></a>
                     <a href="https://github.com/Jelvinth" target="_blank" class="social-icon" aria-label="GitHub"><i
                             data-feather="github"></i></a>
                     <a href="https://linkedin.com/in/jelvinth-lakshmanan-b54b39199" target="_blank" class="social-icon"
@@ -77,16 +85,51 @@
                             <span class="stat-num">2</span>
                             <span class="stat-label">Companies</span>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-num">∞</span>
-                            <span class="stat-label">Passion</span>
-                        </div>
+                        <!-- <div class="stat-item">
+                            <span class="stat-num">BCA</span>
+                            <span class="stat-label">Kannur Univ.</span>
+                        </div> -->
                     </div>
                 </div>
                 <div class="about-image reveal reveal-delay-1">
-                    <div class="image-wrapper" style="background: rgba(10, 10, 12, 0.5);">
-                        <iframe src="https://drive.google.com/file/d/1jFVsse-0EgDvuml-1xjbIEcPYhrunvxy/preview"
-                            width="100%" height="100%" style="border: none;" allow="autoplay"></iframe>
+                    <div class="glass-card" style="padding: 0; overflow: hidden; height: 400px; border-radius: 12px;">
+                        <iframe src="assets/docs/Jelvinth Lakshmanan.pdf" width="100%" height="100%" style="border: none;"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title text-center reveal">My <span class="text-accent">Journey</span></h2>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Data Mining Engineer</h3>
+                        <h4>Hashwave Technologies <span class="text-accent">|</span> Kochi, Kerala</h4>
+                        <span class="timeline-date"><i data-feather="calendar"></i> 04/2022 - 08/2024</span>
+                        <ul class="timeline-list">
+                            <li>Collaborated with clients to implement real-time updates to data formats.</li>
+                            <li>Handled dynamic content, CAPTCHA bypassing, and multi-threaded scraping.</li>
+                            <li>Led a recurring data-driven project reducing data preparation time significantly.</li>
+                            <li>Provided training to new joiners in both First Response and Recurring teams.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Junior Web Developer (Internship)</h3>
+                        <h4>Business Technology Research & Analytics Centre <span class="text-accent">|</span> Kannur,
+                            Kerala</h4>
+                        <span class="timeline-date"><i data-feather="calendar"></i> 12/2021 - 03/2022</span>
+                        <ul class="timeline-list">
+                            <li>Front-End Development: Proficient in HTML, CSS, JavaScript using Bootstrap.</li>
+                            <li>Back-End Development: Built scalable web applications using Python & Django.</li>
+                            <li>Database Management: Skilled in MySQL, writing optimized queries and design.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -95,64 +138,157 @@
         <!-- Skills Section -->
         <section id="skills" class="section">
             <h2 class="section-title text-center reveal">My <span class="text-accent">Tech Stack</span></h2>
-            <div class="skills-showcase reveal">
-                <div class="skill-tags skill-tags-lg justify-center">
-                    <span>Python</span>
-                    <span>Django</span>
-                    <span>Scrapy</span>
-                    <span>Selenium</span>
-                    <span>Playwright</span>
-                    <span>Pandas</span>
-                    <span>FastAPI</span>
-                    <span>MongoDB</span>
-                    <span>MySQL</span>
-                    <span>Azure</span>
-                    <span>HTML</span>
-                    <span>JavaScript</span>
-                    <span>Data Engineering</span>
-                    <span>BeautifulSoup (BS4)</span>
-                    <span>Multi-threaded Scraping</span>
-                    <span>CAPTCHA Bypassing</span>
-                    <span>Data Cleaning & Automation</span>
+            <div class="skills-grid reveal">
+                <!-- Core Expertise -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="star" class="text-accent"></i>
+                        <h3>Core Expertise</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Web Scraping</span>
+                        <span>Data Mining</span>
+                        <span>Python Automation</span>
+                    </div>
+                </div>
+                <!-- Languages -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="code" class="text-accent"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <!-- Frameworks & Libraries -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="layers" class="text-accent"></i>
+                        <h3>Frameworks & Libraries</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Scrapy</span>
+                        <span>Selenium</span>
+                        <span>Playwright</span>
+                        <span>BeautifulSoup</span>
+                        <span>Pandas</span>
+                        <span>Django</span>
+                        <span>FastApi</span>
+                        <span>Ajax</span>
+                    </div>
+                </div>
+                <!-- Databases -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="database" class="text-accent"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                <!-- Tools & Cloud -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="tool" class="text-accent"></i>
+                        <h3>Tools & Cloud</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>Azure</span>
+                        <span>Windows Server</span>
+                        <span>LLM Tools (ChatGPT, Gemini)</span>
+                    </div>
+                </div>
+                <!-- Specializations -->
+                <div class="skill-category glass-card">
+                    <div class="skill-category-header">
+                        <i data-feather="target" class="text-accent"></i>
+                        <h3>Specializations</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Anti-bot bypass</span>
+                        <span>Dynamic content scraping</span>
+                        <span>Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="skill-category glass-card" style="grid-column: 1 / -1;">
+                    <div class="skill-category-header">
+                        <i data-feather="award" class="text-accent"></i>
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="certifications-list"
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                        <span class="cert-badge"
+                            style="background: rgba(var(--accent-rgb), 0.1); padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--accent-color); font-size: 0.9rem;">
+                            <i data-feather="check-circle"
+                                style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 5px;"></i>
+                            Foundations of Data Science - Google (2026)
+                        </span>
+                        <span class="cert-badge"
+                            style="background: rgba(var(--accent-rgb), 0.1); padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--accent-color); font-size: 0.9rem;">
+                            <i data-feather="check-circle"
+                                style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 5px;"></i>
+                            Python for Data Science, AI & Development - IBM (2026)
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Currently Learning -->
+                <div class="skill-category glass-card" style="grid-column: 1 / -1; margin-top: 1rem;">
+                    <div class="skill-category-header">
+                        <i data-feather="book-open" class="text-accent"></i>
+                        <h3>Currently Exploring</h3>
+                    </div>
+                    <p style="margin-top: 0.5rem; color: var(--text-color); opacity: 0.9; font-size: 0.95rem;">
+                        Always looking to grow. I'm actively exploring <strong class="text-accent">LangChain</strong>,
+                        <strong class="text-accent">React</strong>, and <strong class="text-accent">Cloud
+                            Deployment</strong> strategies to transition towards modern full-stack AI development.
+                    </p>
                 </div>
             </div>
+
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section">
             <h2 class="section-title reveal">Featured <span class="text-accent">Projects</span></h2>
             <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-img-placeholder pro-1"></div>
-                    <div class="project-info">
+                <!-- Project 1 (Case Study) -->
+                <div class="project-card glass-card reveal"
+                    style="grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; padding: 2rem;">
+                    <div class="project-img-placeholder pro-1" style="height: 100%; min-height: 250px;"></div>
+                    <div class="project-info" style="padding: 0;">
                         <div class="project-tags">
                             <span>Python</span>
-                            <span>AI Integration</span>
+                            <span>FastAPI</span>
+                            <span>LLM</span>
+                            <span>OCR</span>
                         </div>
-                        <h3>Shipment Extractor AI</h3>
-                        <p>A Python-based AI tool for extracting shipment details automatically according to container
-                            data.</p>
+                        <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Shipment Data Extractor API</h3>
+                        <p style="margin-bottom: 1rem;"><strong>The Problem:</strong> Manual data entry from complex
+                            logistics documents like Bills of Lading and invoices was slow and error-prone.</p>
+                        <p style="margin-bottom: 1rem;"><strong>The Approach:</strong> I built an AI-powered API using
+                            FastAPI, integrating LLM-based document parsing and advanced OCR to handle semi-structured
+                            and unstructured shipment PDFs.</p>
+                        <p style="margin-bottom: 1.5rem;"><strong>The Outcome:</strong> Automated the extraction of
+                            vital shipment details, drastically reducing processing time and improving data accuracy
+                            across operations.</p>
                         <a href="https://github.com/Jelvinth/shipmentextractor_ai" target="_blank"
-                            class="project-link">View Project <i data-feather="arrow-up-right"></i></a>
+                            class="project-link btn btn-outline"
+                            style="display: inline-flex; align-items: center; justify-content: center;">View Project <i
+                                data-feather="github" style="margin-left: 8px;"></i></a>
                     </div>
                 </div>
+
                 <!-- Project 2 -->
-                <div class="project-card glass-card reveal reveal-delay-1">
-                    <div class="project-img-placeholder pro-2"></div>
-                    <div class="project-info">
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Scrapy</span>
-                        </div>
-                        <h3>Berkshire Scrapy</h3>
-                        <p>A data scraping project built specifically to retrieve structured data using Python and the
-                            Scrapy framework.</p>
-                        <a href="https://github.com/Jelvinth/Berkshire_scrapy" target="_blank" class="project-link">View
-                            Project <i data-feather="arrow-up-right"></i></a>
-                    </div>
-                </div>
-                <!-- Project 3 -->
                 <div class="project-card glass-card reveal">
                     <div class="project-img-placeholder pro-3"></div>
                     <div class="project-info">
@@ -162,11 +298,13 @@
                         </div>
                         <h3>Backstage Platform</h3>
                         <p>A casting call publishing platform connecting authorized users, talent, and media
-                            professionals seamlessly.</p>
-                        <a href="#" class="project-link">View Project <i data-feather="arrow-up-right"></i></a>
+                            professionals seamlessly in one place.</p>
+                        <a href="https://github.com/Jelvinth" target="_blank" class="project-link">Code Available on
+                            GitHub <i data-feather="github"></i></a>
                     </div>
                 </div>
-                <!-- Project 4 -->
+
+                <!-- Project 3 -->
                 <div class="project-card glass-card reveal reveal-delay-1">
                     <div class="project-img-placeholder pro-4"></div>
                     <div class="project-info">
@@ -175,9 +313,11 @@
                             <span>UI/UX</span>
                         </div>
                         <h3>Home Solutions</h3>
-                        <p>A web platform aimed at reducing unemployment by connecting freelance workers with posted
+                        <p>A web platform aimed at reducing unemployment by easily connecting freelance workers with
+                            posted
                             customer jobs.</p>
-                        <a href="#" class="project-link">View Project <i data-feather="arrow-up-right"></i></a>
+                        <a href="https://github.com/Jelvinth" target="_blank" class="project-link">Code Available on
+                            GitHub <i data-feather="github"></i></a>
                     </div>
                 </div>
             </div>
@@ -232,7 +372,25 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Glowing 3D Orbs Background -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                VanillaTilt.init(document.querySelectorAll(".project-card, .timeline-content, .card"), {
+                    max: 10,
+                    speed: 400,
+                    glare: true,
+                    "max-glare": 0.15,
+                    scale: 1.02,
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
