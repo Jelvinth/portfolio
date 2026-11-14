@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Automated data lake architecture</title><desc id="desc">Cloud data flowing into bronze, silver and gold storage layers.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b32"/><stop offset="1" stop-color="#07131f"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#0f9f91"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5cb75"/><stop offset="1" stop-color="#c77c37"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+<circle cx="940" cy="95" r="190" fill="#246b83" opacity=".13"/><circle cx="185" cy="570" r="240" fill="#267c70" opacity=".11"/>
+<g opacity=".2" stroke="#87b9cb" stroke-width="1"><path d="M0 140H1200M0 270H1200M0 400H1200M0 530H1200"/><path d="M150 0V675M300 0V675M450 0V675M600 0V675M750 0V675M900 0V675M1050 0V675"/></g>
+<g transform="translate(92 90)">
+ <path d="M107 117c-29 0-52-21-52-48 0-24 19-44 43-47C112-10 150-2 160 27c31-4 57 17 57 45 0 25-20 45-45 45z" fill="#17384a" stroke="#67c8d0" stroke-width="3"/>
+ <path d="M94 69h96M142 35v68" stroke="#75e4d0" stroke-width="5" stroke-linecap="round"/>
+ <text x="140" y="153" fill="#b9d5e6" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">AWS CLOUD</text>
+</g>
+<path d="M310 218H420" stroke="#67dfc6" stroke-width="5" stroke-linecap="round"/><path d="m404 202 17 16-17 16" fill="none" stroke="#67dfc6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(450 108)">
+ <rect x="0" y="0" width="610" height="118" rx="20" fill="#1a2c40" stroke="#d79553" stroke-width="2"/>
+ <rect x="0" y="0" width="15" height="118" rx="7" fill="#d79553"/>
+ <circle cx="60" cy="58" r="25" fill="#d79553" opacity=".22"/><path d="M46 55h28M60 41v28" stroke="#f3bd78" stroke-width="4" stroke-linecap="round"/>
+ <text x="112" y="51" fill="#f4f7fa" font-family="Arial,sans-serif" font-size="28" font-weight="700">BRONZE LAYER</text>
+ <text x="112" y="82" fill="#a9bacd" font-family="Arial,sans-serif" font-size="20">Raw data · Amazon S3</text>
+ <path d="M540 44h36M540 62h36M540 80h24" stroke="#d79553" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+ <rect x="0" y="148" width="610" height="118" rx="20" fill="#15343c" stroke="#4eb9ad" stroke-width="2"/>
+ <rect x="0" y="148" width="15" height="118" rx="7" fill="#4eb9ad"/>
+ <circle cx="60" cy="206" r="25" fill="#4eb9ad" opacity=".2"/><path d="M46 203h28M60 189v28" stroke="#70e3cf" stroke-width="4" stroke-linecap="round"/>
+ <text x="112" y="199" fill="#f4f7fa" font-family="Arial,sans-serif" font-size="28" font-weight="700">SILVER LAYER</text>
+ <text x="112" y="230" fill="#a9bacd" font-family="Arial,sans-serif" font-size="20">Cleaned &amp; validated · AWS Glue</text>
+ <path d="M540 192h36M540 210h36M540 228h24" stroke="#70e3cf" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+ <rect x="0" y="296" width="610" height="118" rx="20" fill="#393124" stroke="#e5bc68" stroke-width="2"/>
+ <rect x="0" y="296" width="15" height="118" rx="7" fill="#e5bc68"/>
+ <circle cx="60" cy="354" r="25" fill="#e5bc68" opacity=".2"/><path d="M46 351h28M60 337v28" stroke="#f4d58d" stroke-width="4" stroke-linecap="round"/>
+ <text x="112" y="347" fill="#f4f7fa" font-family="Arial,sans-serif" font-size="28" font-weight="700">GOLD LAYER</text>
+ <text x="112" y="378" fill="#c5b99e" font-family="Arial,sans-serif" font-size="20">Analytics-ready · Athena / Redshift</text>
+ <path d="M540 340h36M540 358h36M540 376h24" stroke="#f4d58d" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+</g>
+<text x="92" y="602" fill="#8ea7bb" font-family="Arial,sans-serif" font-size="21" letter-spacing="5">DATA LAKE AUTOMATION</text>
+</svg>
